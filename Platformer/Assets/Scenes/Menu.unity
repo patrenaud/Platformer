@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 128252253}
   - component: {fileID: 128252252}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Button KNUCKLES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ???
+  m_Text: Knuckles
 --- !u!222 &254276674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 1122925670}
   - component: {fileID: 1122925669}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button SONIC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -638,7 +638,7 @@ GameObject:
   - component: {fileID: 1385604904}
   - component: {fileID: 1385604903}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button TAILS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

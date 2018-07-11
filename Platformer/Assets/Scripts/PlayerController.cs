@@ -43,29 +43,66 @@ public class PlayerController : MonoBehaviour
         {
             m_MoveDir = Vector2.zero;
             m_Animator.SetBool("Run", false);
-            m_Animator.SetBool("Spin", false);
+            if (gameObject.layer == LayerMask.NameToLayer("Sonic"))
+            {
+                m_Animator.SetBool("Spin", false);
+            }
         }
-
 
         if (Input.GetKeyDown(KeyCode.W) && m_CanJump)
         {
             m_RigidBody.AddForce(transform.up * m_JumpForce);
-            //m_Animator.SetBool("Spin", true);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && m_CanSpin)
         {
-            m_CanSpin = false;
-            m_Animator.SetBool("Spin", true);
-            StartCoroutine(PowerCooldown());
+            if (gameObject.layer == LayerMask.NameToLayer("Tails") && !m_CanJump)
+            {
+                m_CanSpin = false;
+                m_Animator.SetBool("Spin", true);
+                m_RigidBody.gravityScale = 0.2f;
+                StartCoroutine(PowerCooldown());
+            }
+
+            if (gameObject.layer == LayerMask.NameToLayer("Sonic"))
+            {
+                m_CanSpin = false;
+                m_Animator.SetBool("Spin", true);
+                StartCoroutine(PowerCooldown());
+            }
+
+            if (gameObject.layer == LayerMask.NameToLayer("Shadow") && m_CanJump)
+            {
+                m_CanSpin = false;
+                m_Animator.SetBool("Spin", true);
+                m_Speed *= 2;
+                StartCoroutine(PowerCooldown());
+            }
         }
     }
 
     private IEnumerator PowerCooldown()
     {
         yield return new WaitForSeconds(2f);
-        m_Animator.SetBool("Spin", false);
-        m_CanSpin = true;
+
+        if (gameObject.layer == LayerMask.NameToLayer("Tails"))
+        {
+            m_Animator.SetBool("Spin", false);
+            m_CanSpin = true;
+            m_RigidBody.gravityScale = 1;
+        }
+        if (gameObject.layer == LayerMask.NameToLayer("Sonic"))
+        {
+            m_Animator.SetBool("Spin", false);
+            m_CanSpin = true;
+        }
+        if (gameObject.layer == LayerMask.NameToLayer("Shadow"))
+        {
+            m_Speed /= 2;
+            m_Animator.SetBool("Spin", false);
+            m_CanSpin = true;
+        }
+
     }
 
     private void FixedUpdate()
@@ -75,7 +112,7 @@ public class PlayerController : MonoBehaviour
         m_RigidBody.velocity = m_MoveDir;
     }
 
-    private void OnTriggerEnter(Collider aOther)
+    private void OnTriggerStay2D(Collider2D aOther)
     {
         if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
@@ -83,7 +120,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit(Collider aOther)
+    private void OnTriggerExit2D(Collider2D aOther)
     {
         if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {

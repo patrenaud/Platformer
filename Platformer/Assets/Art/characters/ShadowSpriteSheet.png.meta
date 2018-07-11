@@ -1,0 +1,3923 @@
+fileFormatVersion: 2
+guid: d802af74ffdb89641916f741626dd3ac
+timeCreated: 1531320651
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ShadowSpriteSheet_0
+    21300002: ShadowSpriteSheet_1
+    21300004: ShadowSpriteSheet_2
+    21300006: ShadowSpriteSheet_3
+    21300008: ShadowSpriteSheet_4
+    21300010: ShadowSpriteSheet_5
+    21300012: ShadowSpriteSheet_6
+    21300014: ShadowSpriteSheet_7
+    21300016: ShadowSpriteSheet_8
+    21300018: ShadowSpriteSheet_9
+    21300020: ShadowSpriteSheet_10
+    21300022: ShadowSpriteSheet_11
+    21300024: ShadowSpriteSheet_12
+    21300026: ShadowSpriteSheet_13
+    21300028: ShadowSpriteSheet_14
+    21300030: ShadowSpriteSheet_15
+    21300032: ShadowSpriteSheet_16
+    21300034: ShadowSpriteSheet_17
+    21300036: ShadowSpriteSheet_18
+    21300038: ShadowSpriteSheet_19
+    21300040: ShadowSpriteSheet_20
+    21300042: ShadowSpriteSheet_21
+    21300044: ShadowSpriteSheet_22
+    21300046: ShadowSpriteSheet_23
+    21300048: ShadowSpriteSheet_24
+    21300050: ShadowSpriteSheet_25
+    21300052: ShadowSpriteSheet_26
+    21300054: ShadowSpriteSheet_27
+    21300056: ShadowSpriteSheet_28
+    21300058: ShadowSpriteSheet_29
+    21300060: ShadowSpriteSheet_30
+    21300062: ShadowSpriteSheet_31
+    21300064: ShadowSpriteSheet_32
+    21300066: ShadowSpriteSheet_33
+    21300068: ShadowSpriteSheet_34
+    21300070: ShadowSpriteSheet_35
+    21300072: ShadowSpriteSheet_36
+    21300074: ShadowSpriteSheet_37
+    21300076: ShadowSpriteSheet_38
+    21300078: ShadowSpriteSheet_39
+    21300080: ShadowSpriteSheet_40
+    21300082: ShadowSpriteSheet_41
+    21300084: ShadowSpriteSheet_42
+    21300086: ShadowSpriteSheet_43
+    21300088: ShadowSpriteSheet_44
+    21300090: ShadowSpriteSheet_45
+    21300092: ShadowSpriteSheet_46
+    21300094: ShadowSpriteSheet_47
+    21300096: ShadowSpriteSheet_48
+    21300098: ShadowSpriteSheet_49
+    21300100: ShadowSpriteSheet_50
+    21300102: ShadowSpriteSheet_51
+    21300104: ShadowSpriteSheet_52
+    21300106: ShadowSpriteSheet_53
+    21300108: ShadowSpriteSheet_54
+    21300110: ShadowSpriteSheet_55
+    21300112: ShadowSpriteSheet_56
+    21300114: ShadowSpriteSheet_57
+    21300116: ShadowSpriteSheet_58
+    21300118: ShadowSpriteSheet_59
+    21300120: ShadowSpriteSheet_60
+    21300122: ShadowSpriteSheet_61
+    21300124: ShadowSpriteSheet_62
+    21300126: ShadowSpriteSheet_63
+    21300128: ShadowSpriteSheet_64
+    21300130: ShadowSpriteSheet_65
+    21300132: ShadowSpriteSheet_66
+    21300134: ShadowSpriteSheet_67
+    21300136: ShadowSpriteSheet_68
+    21300138: ShadowSpriteSheet_69
+    21300140: ShadowSpriteSheet_70
+    21300142: ShadowSpriteSheet_71
+    21300144: ShadowSpriteSheet_72
+    21300146: ShadowSpriteSheet_73
+    21300148: ShadowSpriteSheet_74
+    21300150: ShadowSpriteSheet_75
+    21300152: ShadowSpriteSheet_76
+    21300154: ShadowSpriteSheet_77
+    21300156: ShadowSpriteSheet_78
+    21300158: ShadowSpriteSheet_79
+    21300160: ShadowSpriteSheet_80
+    21300162: ShadowSpriteSheet_81
+    21300164: ShadowSpriteSheet_82
+    21300166: ShadowSpriteSheet_83
+    21300168: ShadowSpriteSheet_84
+    21300170: ShadowSpriteSheet_85
+    21300172: ShadowSpriteSheet_86
+    21300174: ShadowSpriteSheet_87
+    21300176: ShadowSpriteSheet_88
+    21300178: ShadowSpriteSheet_89
+    21300180: ShadowSpriteSheet_90
+    21300182: ShadowSpriteSheet_91
+    21300184: ShadowSpriteSheet_92
+    21300186: ShadowSpriteSheet_93
+    21300188: ShadowSpriteSheet_94
+    21300190: ShadowSpriteSheet_95
+    21300192: ShadowSpriteSheet_96
+    21300194: ShadowSpriteSheet_97
+    21300196: ShadowSpriteSheet_98
+    21300198: ShadowSpriteSheet_99
+    21300200: ShadowSpriteSheet_100
+    21300202: ShadowSpriteSheet_101
+    21300204: ShadowSpriteSheet_102
+    21300206: ShadowSpriteSheet_103
+    21300208: ShadowSpriteSheet_104
+    21300210: ShadowSpriteSheet_105
+    21300212: ShadowSpriteSheet_106
+    21300214: ShadowSpriteSheet_107
+    21300216: ShadowSpriteSheet_108
+    21300218: ShadowSpriteSheet_109
+    21300220: ShadowSpriteSheet_110
+    21300222: ShadowSpriteSheet_111
+    21300224: ShadowSpriteSheet_112
+    21300226: ShadowSpriteSheet_113
+    21300228: ShadowSpriteSheet_114
+    21300230: ShadowSpriteSheet_115
+    21300232: ShadowSpriteSheet_116
+    21300234: ShadowSpriteSheet_117
+    21300236: ShadowSpriteSheet_118
+    21300238: ShadowSpriteSheet_119
+    21300240: ShadowSpriteSheet_120
+    21300242: ShadowSpriteSheet_121
+    21300244: ShadowSpriteSheet_122
+    21300246: ShadowSpriteSheet_123
+    21300248: ShadowSpriteSheet_124
+    21300250: ShadowSpriteSheet_125
+    21300252: ShadowSpriteSheet_126
+    21300254: ShadowSpriteSheet_127
+    21300256: ShadowSpriteSheet_128
+    21300258: ShadowSpriteSheet_129
+    21300260: ShadowSpriteSheet_130
+    21300262: ShadowSpriteSheet_131
+    21300264: ShadowSpriteSheet_132
+    21300266: ShadowSpriteSheet_133
+    21300268: ShadowSpriteSheet_134
+    21300270: ShadowSpriteSheet_135
+    21300272: ShadowSpriteSheet_136
+    21300274: ShadowSpriteSheet_137
+    21300276: ShadowSpriteSheet_138
+    21300278: ShadowSpriteSheet_139
+    21300280: ShadowSpriteSheet_140
+    21300282: ShadowSpriteSheet_141
+    21300284: ShadowSpriteSheet_142
+    21300286: ShadowSpriteSheet_143
+    21300288: ShadowSpriteSheet_144
+    21300290: ShadowSpriteSheet_145
+    21300292: ShadowSpriteSheet_146
+    21300294: ShadowSpriteSheet_147
+    21300296: ShadowSpriteSheet_148
+    21300298: ShadowSpriteSheet_149
+    21300300: ShadowSpriteSheet_150
+    21300302: ShadowSpriteSheet_151
+    21300304: ShadowSpriteSheet_152
+    21300306: ShadowSpriteSheet_153
+    21300308: ShadowSpriteSheet_154
+    21300310: ShadowSpriteSheet_155
+    21300312: ShadowSpriteSheet_156
+    21300314: ShadowSpriteSheet_157
+    21300316: ShadowSpriteSheet_158
+    21300318: ShadowSpriteSheet_159
+    21300320: ShadowSpriteSheet_160
+    21300322: ShadowSpriteSheet_161
+    21300324: ShadowSpriteSheet_162
+    21300326: ShadowSpriteSheet_163
+    21300328: ShadowSpriteSheet_164
+    21300330: ShadowSpriteSheet_165
+    21300332: ShadowSpriteSheet_166
+    21300334: ShadowSpriteSheet_167
+    21300336: ShadowSpriteSheet_168
+    21300338: ShadowSpriteSheet_169
+    21300340: ShadowSpriteSheet_170
+    21300342: ShadowSpriteSheet_171
+    21300344: ShadowSpriteSheet_172
+    21300346: ShadowSpriteSheet_173
+    21300348: ShadowSpriteSheet_174
+    21300350: ShadowSpriteSheet_175
+    21300352: ShadowSpriteSheet_176
+    21300354: ShadowSpriteSheet_177
+    21300356: ShadowSpriteSheet_178
+    21300358: ShadowSpriteSheet_179
+    21300360: ShadowSpriteSheet_180
+    21300362: ShadowSpriteSheet_181
+    21300364: ShadowSpriteSheet_182
+    21300366: ShadowSpriteSheet_183
+    21300368: ShadowSpriteSheet_184
+    21300370: ShadowSpriteSheet_185
+    21300372: ShadowSpriteSheet_186
+    21300374: ShadowSpriteSheet_187
+    21300376: ShadowSpriteSheet_188
+    21300378: ShadowSpriteSheet_189
+    21300380: ShadowSpriteSheet_190
+    21300382: ShadowSpriteSheet_191
+    21300384: ShadowSpriteSheet_192
+    21300386: ShadowSpriteSheet_193
+    21300388: ShadowSpriteSheet_194
+    21300390: ShadowSpriteSheet_195
+    21300392: ShadowSpriteSheet_196
+    21300394: ShadowSpriteSheet_197
+    21300396: ShadowSpriteSheet_198
+    21300398: ShadowSpriteSheet_199
+    21300400: ShadowSpriteSheet_200
+    21300402: ShadowSpriteSheet_201
+    21300404: ShadowSpriteSheet_202
+    21300406: ShadowSpriteSheet_203
+    21300408: ShadowSpriteSheet_204
+    21300410: ShadowSpriteSheet_205
+    21300412: ShadowSpriteSheet_206
+    21300414: ShadowSpriteSheet_207
+    21300416: ShadowSpriteSheet_208
+    21300418: ShadowSpriteSheet_209
+    21300420: ShadowSpriteSheet_210
+    21300422: ShadowSpriteSheet_211
+    21300424: ShadowSpriteSheet_212
+    21300426: ShadowSpriteSheet_213
+    21300428: ShadowSpriteSheet_214
+    21300430: ShadowSpriteSheet_215
+    21300432: ShadowSpriteSheet_216
+    21300434: ShadowSpriteSheet_217
+    21300436: ShadowSpriteSheet_218
+    21300438: ShadowSpriteSheet_219
+    21300440: ShadowSpriteSheet_220
+    21300442: ShadowSpriteSheet_221
+    21300444: ShadowSpriteSheet_222
+    21300446: ShadowSpriteSheet_223
+    21300448: ShadowSpriteSheet_224
+    21300450: ShadowSpriteSheet_225
+    21300452: ShadowSpriteSheet_226
+    21300454: ShadowSpriteSheet_227
+    21300456: ShadowSpriteSheet_228
+    21300458: ShadowSpriteSheet_229
+    21300460: ShadowSpriteSheet_230
+    21300462: ShadowSpriteSheet_231
+    21300464: ShadowSpriteSheet_232
+    21300466: ShadowSpriteSheet_233
+    21300468: ShadowSpriteSheet_234
+    21300470: ShadowSpriteSheet_235
+    21300472: ShadowSpriteSheet_236
+    21300474: ShadowSpriteSheet_237
+    21300476: ShadowSpriteSheet_238
+    21300478: ShadowSpriteSheet_239
+    21300480: ShadowSpriteSheet_240
+    21300482: ShadowSpriteSheet_241
+    21300484: ShadowSpriteSheet_242
+    21300486: ShadowSpriteSheet_243
+    21300488: ShadowSpriteSheet_244
+    21300490: ShadowSpriteSheet_245
+    21300492: ShadowSpriteSheet_246
+    21300494: ShadowSpriteSheet_247
+    21300496: ShadowSpriteSheet_248
+    21300498: ShadowSpriteSheet_249
+    21300500: ShadowSpriteSheet_250
+    21300502: ShadowSpriteSheet_251
+    21300504: ShadowSpriteSheet_252
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 50
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1028
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1028
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1028
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1028
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1028
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1028
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1028
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1028
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1028
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1028
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1028
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1028
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1028
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1028
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1028
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1028
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1028
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1028
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1028
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1028
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1028
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1028
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1028
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 196
+        width: 53
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 975
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 975
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 975
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 975
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 975
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 975
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 975
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 975
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 975
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 975
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 975
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 975
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 975
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 975
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 926
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 926
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 926
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 926
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 926
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 926
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 926
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 926
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 926
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 926
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 926
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 926
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 926
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 926
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 926
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 926
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 926
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 958
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 926
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 951
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 940
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 940
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 872
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 868
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 868
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 868
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 869
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 868
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 868
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 868
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 868
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 868
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 887
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 868
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 890
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 868
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 868
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 868
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 869
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 865
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 808
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 808
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 808
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 808
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 808
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 808
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 808
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 809
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 808
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 808
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 808
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 808
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 808
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 808
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 808
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 808
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 769
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 753
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 753
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 753
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 751
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 754
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 754
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 754
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 753
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 754
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 752
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 752
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 751
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 750
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 751
+        width: 53
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 751
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 749
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 699
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 699
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 699
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 699
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 699
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 697
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 699
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 699
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 699
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 699
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 699
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 699
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 699
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 699
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 700
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 700
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 700
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 700
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 699
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 699
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 699
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 699
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 646
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 646
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 646
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 646
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 646
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 646
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 644
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 644
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 647
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 644
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 646
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 646
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 646
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 646
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 646
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 646
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 646
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 646
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 646
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 646
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 646
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 646
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 647
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 573
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 573
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 573
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 573
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 573
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 572
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 574
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 574
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 574
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 574
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 571
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 574
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 574
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 574
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 516
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 515
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 515
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 514
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 514
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 514
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 517
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 518
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 446
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 446
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 443
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 442
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 443
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 444
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 444
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 444
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 443
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 447
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 441
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 441
+        width: 58
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 378
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 378
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 413
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 378
+        width: 59
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 378
+        width: 59
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 374
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 374
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 378
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 373
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 373
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 415
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 418
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 408
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 373
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 388
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 374
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 378
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 309
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 309
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 307
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 308
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 306
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 308
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 308
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 307
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 306
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 307
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 255
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 255
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 255
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 255
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 254
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_236
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_237
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 257
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_238
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 257
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_239
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 257
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_240
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 204
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_241
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 204
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_242
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 204
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_243
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 204
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_244
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 211
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_245
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 204
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_246
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 212
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_247
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 204
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_248
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 203
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_249
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 203
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_250
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 206
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 207
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ShadowSpriteSheet_252
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 206
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
