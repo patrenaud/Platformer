@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class PlayerController : MonoBehaviour
 {
-
     public Rigidbody2D m_RigidBody;
     public float m_JumpForce = 250f;
 
@@ -16,8 +15,10 @@ public class PlayerController : MonoBehaviour
     private float m_Speed = 10f;
     private SpriteRenderer m_Visual;
     private float m_InputX;
+    private bool m_CanSpin = true;
+    private bool m_CanJump = true;
 
-    private void Awake()
+    private void Start()
     {
         m_Visual = GetComponent<SpriteRenderer>();
     }
@@ -25,43 +26,46 @@ public class PlayerController : MonoBehaviour
     public void Update()
     {
         m_InputX = Input.GetAxisRaw("Horizontal");
-		m_Animator.SetInteger("Speed", (int)m_InputX);
+
         if (m_InputX > 0)
         {
+            m_MoveDir = transform.right;
             m_Visual.flipX = false;
+            m_Animator.SetBool("Run", true);
         }
         else if (m_InputX < 0)
         {
-            m_Visual.flipX = true;
-        }
-
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            // va a droite
-            m_MoveDir = transform.right;
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            // va a gauche
             m_MoveDir = -transform.right;
+            m_Visual.flipX = true;
+            m_Animator.SetBool("Run", true);
         }
         else
         {
-            // va nul part
             m_MoveDir = Vector2.zero;
+            m_Animator.SetBool("Run", false);
+            m_Animator.SetBool("Spin", false);
         }
 
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) && m_CanJump)
         {
             m_RigidBody.AddForce(transform.up * m_JumpForce);
+            //m_Animator.SetBool("Spin", true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && m_CanSpin)
         {
-            
+            m_CanSpin = false;
+            m_Animator.SetBool("Spin", true);
+            StartCoroutine(PowerCooldown());
         }
+    }
+
+    private IEnumerator PowerCooldown()
+    {
+        yield return new WaitForSeconds(2f);
+        m_Animator.SetBool("Spin", false);
+        m_CanSpin = true;
     }
 
     private void FixedUpdate()
@@ -69,5 +73,21 @@ public class PlayerController : MonoBehaviour
         m_MoveDir *= m_Speed;
         m_MoveDir.y = m_RigidBody.velocity.y;
         m_RigidBody.velocity = m_MoveDir;
+    }
+
+    private void OnTriggerEnter(Collider aOther)
+    {
+        if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            m_CanJump = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider aOther)
+    {
+        if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            m_CanJump = false;
+        }
     }
 }
