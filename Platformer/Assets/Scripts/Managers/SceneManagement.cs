@@ -2,10 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneManagement : DontDestroyOnLoad
 {
     [SerializeField] private GameObject m_LoadingScreen;
+    public int m_CharacterIndex;
+    [SerializeField]
+    private Button m_SButton;
+    [SerializeField]
+    private Button m_TButton;
+    [SerializeField]
+    private Button m_ShButton;
+
+    [SerializeField] private GameObject m_MenuImage;
 
     private static SceneManagement m_Instance;
     public static SceneManagement Instance
@@ -24,18 +34,24 @@ public class SceneManagement : DontDestroyOnLoad
             Destroy(this);
         }
         base.Awake();
+        m_LoadingScreen.SetActive(false);
+        m_MenuImage.SetActive(true);
     }
+    
 
     private void StartLoading()
     {
         m_LoadingScreen.SetActive(true);
+        m_MenuImage.SetActive(false);
+        m_SButton.gameObject.SetActive(false);
+        m_TButton.gameObject.SetActive(false);
+        m_ShButton.gameObject.SetActive(false);
     }
 
     private void OnLoadingDone(Scene i_Scene, LoadSceneMode i_Mode)
     {
         SceneManager.sceneLoaded -= OnLoadingDone;
         m_LoadingScreen.SetActive(false);
-        //m_IsLoadingDone = true;
     }
 
     public void ChangeLevel(string i_Scene)
@@ -53,23 +69,22 @@ public class SceneManagement : DontDestroyOnLoad
         SceneManager.LoadScene(i_Scene);
     }
 
-    public void LoadGame()
+
+    public void LoadAsSonic()
     {
-        SceneManager.LoadScene("GamePlay");
+        SceneManagement.Instance.ChangeLevel("Game");
+        m_CharacterIndex = 1;
     }
 
-    public void LoadMainMenu()
+    public void LoadAsTails()
     {
-        SceneManager.LoadScene("ApplicationLauncher");
+        SceneManagement.Instance.ChangeLevel("Game");
+        m_CharacterIndex = 2;
     }
 
-    public void LoadResults()
+    public void LoadAsShadow()
     {
-        SceneManager.LoadScene("Results");
-    }
-
-    public void LoadDeath()
-    {
-        SceneManager.LoadScene("Death");
+        SceneManagement.Instance.ChangeLevel("Game");
+        m_CharacterIndex = 3;
     }
 }

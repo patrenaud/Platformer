@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody2D m_RigidBody;
     public float m_JumpForce = 250f;
+    [HideInInspector]
+    public bool m_CanSpin = true;
 
     private Vector2 m_MoveDir = new Vector2();
     [SerializeField]
@@ -14,9 +16,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private float m_Speed = 10f;
     private SpriteRenderer m_Visual;
-    private float m_InputX;
-    private bool m_CanSpin = true;
+    private float m_InputX;    
     private bool m_CanJump = true;
+
+    private float m_Hp;
+
 
     private void Start()
     {
@@ -118,6 +122,8 @@ public class PlayerController : MonoBehaviour
         {
             m_CanJump = true;
         }
+
+
     }
 
     private void OnTriggerExit2D(Collider2D aOther)

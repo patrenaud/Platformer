@@ -18,6 +18,7 @@ private Vector3 m_MovePos = new Vector3();
 
 	private void Start () 
 	{
+        m_ToFollow = PlayerManager.Instance.m_Player.transform;
 		m_MovePos = transform.position;
 	}
 	
