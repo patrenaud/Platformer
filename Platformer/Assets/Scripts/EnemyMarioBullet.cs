@@ -37,7 +37,6 @@ public class EnemyMarioBullet : MonoBehaviour
         {
             PlayerManager.Instance.TakeDamage();
             Destroy(gameObject);
-            Debug.Log(PlayerManager.Instance.m_HP);
         }
         // Only exception is when Sonic gets hit while he is spinning (invincible spin!)
         else if (aOther.gameObject.layer == LayerMask.NameToLayer("Sonic"))

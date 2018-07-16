@@ -7,15 +7,8 @@ using UnityEngine.UI;
 public class SceneManagement : DontDestroyOnLoad
 {
     [SerializeField] private GameObject m_LoadingScreen;
-    public int m_CharacterIndex;
-    [SerializeField]
-    private Button m_SButton;
-    [SerializeField]
-    private Button m_TButton;
-    [SerializeField]
-    private Button m_ShButton;
-
-    [SerializeField] private GameObject m_MenuImage;
+    [SerializeField] private GameObject m_MenuScreen;
+    public int m_CharacterIndex;    
 
     private static SceneManagement m_Instance;
     public static SceneManagement Instance
@@ -35,17 +28,15 @@ public class SceneManagement : DontDestroyOnLoad
         }
         base.Awake();
         m_LoadingScreen.SetActive(false);
-        m_MenuImage.SetActive(true);
+        m_MenuScreen.SetActive(true);
     }
-    
+
 
     private void StartLoading()
     {
         m_LoadingScreen.SetActive(true);
-        m_MenuImage.SetActive(false);
-        m_SButton.gameObject.SetActive(false);
-        m_TButton.gameObject.SetActive(false);
-        m_ShButton.gameObject.SetActive(false);
+        m_MenuScreen.SetActive(false);
+
     }
 
     private void OnLoadingDone(Scene i_Scene, LoadSceneMode i_Mode)
@@ -57,7 +48,7 @@ public class SceneManagement : DontDestroyOnLoad
     public void ChangeLevel(string i_Scene)
     {
         StartLoading();
-        
+
         StartCoroutine(LoadingTimer(i_Scene));
 
         SceneManager.sceneLoaded += OnLoadingDone;
@@ -65,7 +56,7 @@ public class SceneManagement : DontDestroyOnLoad
 
     private IEnumerator LoadingTimer(string i_Scene)
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(i_Scene);
     }
 
@@ -86,5 +77,5 @@ public class SceneManagement : DontDestroyOnLoad
     {
         SceneManagement.Instance.ChangeLevel("Game");
         m_CharacterIndex = 3;
-    }
+    }    
 }

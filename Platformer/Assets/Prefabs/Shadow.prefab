@@ -73,7 +73,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1295412728279214}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1e81de0b111b81e4e8544c44f90f4ef8, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -145,8 +145,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_RigidBody: {fileID: 50159487157193262}
   m_JumpForce: 350
+  m_CanSpin: 1
   m_Animator: {fileID: 95702304900936480}
   m_Speed: 5
+  m_CheckPoint1Done: 0
+  m_CheckPoint2Done: 0
 --- !u!212 &212033668339696050
 SpriteRenderer:
   m_ObjectHideFlags: 1
