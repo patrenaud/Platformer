@@ -9,8 +9,7 @@ public class PlayerController : MonoBehaviour
     public float m_JumpForce = 250f;
     [HideInInspector]
     public bool m_CanSpin = true;
-    public bool m_CheckPoint1Done = false;
-    public bool m_CheckPoint2Done = false;
+
 
     private Vector2 m_MoveDir = new Vector2();
     [SerializeField]
@@ -24,6 +23,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         m_Visual = GetComponent<SpriteRenderer>();
+        PlayerManager.Instance.m_Player = this.gameObject;
     }
 
     public void Update()
@@ -126,12 +126,12 @@ public class PlayerController : MonoBehaviour
     {
         if(aOther.gameObject.layer == LayerMask.NameToLayer("CheckPoint1"))
         {
-            m_CheckPoint1Done = true;
+            PlayerManager.Instance.m_CheckPoint1Done = true;
             Debug.Log("CHeckPoint 1 Reached");
         }
         if (aOther.gameObject.layer == LayerMask.NameToLayer("CheckPoint2"))
         {
-            m_CheckPoint2Done = true;
+            PlayerManager.Instance.m_CheckPoint2Done = true;
             Debug.Log("CHeckPoint 2 Reached");
         }
     }

@@ -71,8 +71,7 @@ public class EnemyDropper : MonoBehaviour
             aOther.gameObject.layer == LayerMask.NameToLayer("Shadow"))
         {
             PlayerManager.Instance.TakeDamage();
-            Destroy(gameObject);
-            Debug.Log(PlayerManager.Instance.m_HP);
+            Destroy(gameObject);            
         }
         else if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
@@ -84,6 +83,16 @@ public class EnemyDropper : MonoBehaviour
         else if (aOther.gameObject.layer == LayerMask.NameToLayer("Sonic"))
         {
             Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D aOther)
+    {
+        if(aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        {
+            m_IsGrounded = false;
+            m_Animator.SetBool("Ground", false);
+            m_Dir = -transform.up.normalized;
         }
     }
 }

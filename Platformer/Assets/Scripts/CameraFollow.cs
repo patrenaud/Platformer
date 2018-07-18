@@ -7,8 +7,8 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour 
 {
 
-[SerializeField]
-private Transform m_ToFollow;
+public Transform m_ToFollow;
+
 [SerializeField]
 private float m_FollowSpeed = 3f;
 [SerializeField]
@@ -16,7 +16,13 @@ private float m_Offset = 2f;
 
 private Vector3 m_MovePos = new Vector3();
 
-	private void Start () 
+    private static CameraFollow m_Instance;
+    public static CameraFollow Instance
+    {
+        get { return m_Instance; }
+    }
+    
+    private void Start () 
 	{
         m_ToFollow = PlayerManager.Instance.m_Player.transform;
 		m_MovePos = transform.position;

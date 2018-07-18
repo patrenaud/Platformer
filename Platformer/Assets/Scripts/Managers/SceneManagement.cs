@@ -8,7 +8,7 @@ public class SceneManagement : DontDestroyOnLoad
 {
     [SerializeField] private GameObject m_LoadingScreen;
     [SerializeField] private GameObject m_MenuScreen;
-    public int m_CharacterIndex;    
+    public int m_CharacterIndex;
 
     private static SceneManagement m_Instance;
     public static SceneManagement Instance
@@ -36,13 +36,16 @@ public class SceneManagement : DontDestroyOnLoad
     {
         m_LoadingScreen.SetActive(true);
         m_MenuScreen.SetActive(false);
-
     }
 
     private void OnLoadingDone(Scene i_Scene, LoadSceneMode i_Mode)
     {
         SceneManager.sceneLoaded -= OnLoadingDone;
         m_LoadingScreen.SetActive(false);
+        if (i_Scene.ToString() != "Results")
+        {
+            PlayerManager.Instance.SetPlayer();
+        }
     }
 
     public void ChangeLevel(string i_Scene)
@@ -63,19 +66,19 @@ public class SceneManagement : DontDestroyOnLoad
 
     public void LoadAsSonic()
     {
-        SceneManagement.Instance.ChangeLevel("Game");
         m_CharacterIndex = 1;
+        SceneManagement.Instance.ChangeLevel("Game");
     }
 
     public void LoadAsTails()
     {
-        SceneManagement.Instance.ChangeLevel("Game");
         m_CharacterIndex = 2;
+        SceneManagement.Instance.ChangeLevel("Game");
     }
 
     public void LoadAsShadow()
     {
-        SceneManagement.Instance.ChangeLevel("Game");
         m_CharacterIndex = 3;
-    }    
+        SceneManagement.Instance.ChangeLevel("Game");
+    }
 }

@@ -24,6 +24,9 @@ public class PlayerManager : DontDestroyOnLoad
     private float m_Timer;
     private float m_TimerTick;
 
+    public bool m_CheckPoint1Done = false;
+    public bool m_CheckPoint2Done = false;
+    public bool m_Win = false;
     public Coroutine m_Coroutine;
     public int m_HP = 2;
     public int m_Life = 3;
@@ -46,24 +49,12 @@ public class PlayerManager : DontDestroyOnLoad
         }
         base.Awake();
 
-        // Instantiates the player depending on the CharacterIndex from the button choice from SceneManagement
-        if (SceneManagement.Instance.m_CharacterIndex == 1) // index 1 = Sonic
-        {
-            m_Player = Instantiate(m_SonicPrefab, m_SpawnPos1.position, Quaternion.identity);
-        }
-        else if (SceneManagement.Instance.m_CharacterIndex == 2) // index 2 = Tails
-        {
-            m_Player = Instantiate(m_TailsPrefab, m_SpawnPos1.position, Quaternion.identity);
-        }
-        else if (SceneManagement.Instance.m_CharacterIndex == 3) // index 3 = Shadow
-        {
-            m_Player = Instantiate(m_ShadowPrefab, m_SpawnPos1.position, Quaternion.identity);
-        }
+        // Instantiates the player depending on the CharacterIndex from the button choice from SceneManagement   
     }
 
     private void Start()
     {
-        m_DefaultColor = m_Player.GetComponent<Renderer>().material.color;
+        
         m_Timer = 0;
         m_TimerTick = 1;
     }
@@ -84,21 +75,26 @@ public class PlayerManager : DontDestroyOnLoad
             // Si le joueur arrive à 0 de HP, Sa nouvelle position de spawn dépendera des checkpoints activés.
             if (m_HP == 0)
             {
-                if (m_Player.GetComponent<PlayerController>().m_CheckPoint2Done)
-                {
-                    ReplacePlayer(m_CheckPoint2.transform);
-
-                }
-                else if (m_Player.GetComponent<PlayerController>().m_CheckPoint1Done)
-                {
-                    ReplacePlayer(m_CheckPoint1.transform);
-                }
-                else
-                {
-                    ReplacePlayer(m_SpawnPos1.transform);
-                }
                 LooseLife();
+                SceneManagement.Instance.ChangeLevel("Results");
             }
+        }
+    }
+
+    private void PlaceToCheckPoint()
+    {
+        if (m_CheckPoint2Done)
+        {
+            ReplacePlayer(m_CheckPoint2.transform);
+
+        }
+        else if (m_CheckPoint1Done)
+        {
+            ReplacePlayer(m_CheckPoint1.transform);
+        }
+        else
+        {
+            ReplacePlayer(m_SpawnPos1.transform);
         }
     }
 
@@ -139,7 +135,7 @@ public class PlayerManager : DontDestroyOnLoad
                 else
                 {
                     yield return null;
-                }                
+                }
             }
             else
             {
@@ -168,6 +164,7 @@ public class PlayerManager : DontDestroyOnLoad
 
         if (m_Life == 0)
         {
+            m_Win = false;
             SceneManagement.Instance.ChangeLevel("Results");
         }
     }
@@ -177,5 +174,41 @@ public class PlayerManager : DontDestroyOnLoad
         m_Player.GetComponent<PlayerController>().ScaleUp();
         m_Player.transform.position = i_Pos.position;
         m_HP = 2;
+    }
+
+    public void SetLife()
+    {
+        if (m_Life == 2)
+        {
+            m_Lives[0].SetActive(true);
+            m_Lives[1].SetActive(true);
+            m_Lives[2].SetActive(false);
+        }
+        else if (m_Life == 1)
+        {
+            m_Lives[0].SetActive(true);
+            m_Lives[1].SetActive(false);
+            m_Lives[2].SetActive(false);
+        }
+    }
+
+    public void SetPlayer()
+    {
+        if (SceneManagement.Instance.m_CharacterIndex == 1) // index 1 = Sonic
+        {
+            m_Player = Instantiate(m_SonicPrefab, m_SpawnPos1.position, Quaternion.identity);
+            PlaceToCheckPoint();
+        }
+        else if (SceneManagement.Instance.m_CharacterIndex == 2) // index 2 = Tails
+        {
+            m_Player = Instantiate(m_TailsPrefab, m_SpawnPos1.position, Quaternion.identity);
+            PlaceToCheckPoint();
+        }
+        else if (SceneManagement.Instance.m_CharacterIndex == 3) // index 3 = Shadow
+        {
+            m_Player = Instantiate(m_ShadowPrefab, m_SpawnPos1.position, Quaternion.identity);
+            PlaceToCheckPoint();
+        }
+        m_DefaultColor = m_Player.GetComponent<Renderer>().material.color;
     }
 }

@@ -244,17 +244,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\EndMusic.cs" />
     <Compile Include="Assets\Scripts\EnemyDropper.cs" />
     <Compile Include="Assets\Scripts\EnemyDropperCreator.cs" />
+    <Compile Include="Assets\Scripts\EnemyMario.cs" />
     <Compile Include="Assets\Scripts\EnemyMarioBullet.cs" />
     <Compile Include="Assets\Scripts\EnemyMarioBulletCreator.cs" />
-    <Compile Include="Assets\Scripts\MainUI.cs" />
     <Compile Include="Assets\Scripts\Managers\DontDestroyOnLoad.cs" />
     <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\Parallaxe.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\ResultUI.cs" />
     <Compile Include="Assets\Scripts\SpringsBehavior.cs" />
+    <Compile Include="Assets\Scripts\UI\MainUI.cs" />
+    <Compile Include="Assets\Scripts\WinTrigger.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
