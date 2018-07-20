@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
 
     private Vector2 m_MoveDir = new Vector2();
+    
     [SerializeField]
     private Animator m_Animator;
     [SerializeField]
@@ -47,10 +48,6 @@ public class PlayerController : MonoBehaviour
         {
             m_MoveDir = Vector2.zero;
             m_Animator.SetBool("Run", false);
-            if (gameObject.layer == LayerMask.NameToLayer("Sonic")) // If Sonic stops moving or turns around, his power stops
-            {
-                m_Animator.SetBool("Spin", false);
-            }
         }
 
         // Makes the character Jump
@@ -134,7 +131,12 @@ public class PlayerController : MonoBehaviour
             PlayerManager.Instance.m_CheckPoint2Done = true;
             Debug.Log("CHeckPoint 2 Reached");
         }
+        /*if(aOther.gameObject.layer == LayerMask.NameToLayer("Boss"))
+        {    
+            m_RigidBody.AddForce(transform.up * m_JumpForce * 2);
+        }*/
     }
+
 
     // For Jump purposes
     private void OnTriggerStay2D(Collider2D aOther)

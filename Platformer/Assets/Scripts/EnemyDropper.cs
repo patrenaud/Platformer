@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyDropper : MonoBehaviour
 {
-
     public Rigidbody2D m_RigidBody;
     public float m_Speed;
 
@@ -13,7 +12,8 @@ public class EnemyDropper : MonoBehaviour
     private Vector2 m_Dir = new Vector2();
     private Animator m_Animator;
     private bool m_IsGrounded = false;
-    private bool m_SideChoose = false;
+    private bool m_RightChosen = true;
+    private bool m_LeftChosen = true;
 
     private void Start()
     {
@@ -28,42 +28,33 @@ public class EnemyDropper : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!m_IsGrounded)
-        {
-            // When Enemy is in the Air
-            m_RigidBody.velocity = m_Dir * m_Speed;
-            m_CurrentTime += Time.deltaTime;
-            if (m_CurrentTime >= m_Time)
-            {
-                Destroy(gameObject);
-            }
-        }
-        else
+        if (m_IsGrounded)
         {
             // When Enemy has landed, he chooses a side to walk depending on player Position
-            if (PlayerManager.Instance.m_Player.transform.position.x < transform.position.x && !m_SideChoose)
+            if (PlayerManager.Instance.m_Player.transform.position.x < transform.position.x && m_RightChosen)
             {
-                m_SideChoose = true;
                 m_Dir = -transform.right.normalized;
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+                m_LeftChosen = false;
             }
-            else if (PlayerManager.Instance.m_Player.transform.position.x > transform.position.x && !m_SideChoose)
+            else if (PlayerManager.Instance.m_Player.transform.position.x > transform.position.x && m_LeftChosen)
             {
-                m_SideChoose = true;
                 m_Dir = transform.right.normalized;
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                m_RightChosen = false;
             }
+        }
 
-            // Destroys after 15 secs
-            m_RigidBody.velocity = m_Dir * m_Speed;
-            m_CurrentTime += Time.deltaTime;
-            if (m_CurrentTime >= m_Time)
-            {
-                Destroy(gameObject);
-            }
+        // Destroys after 15 secs
+        m_RigidBody.velocity = m_Dir * m_Speed;
+        m_CurrentTime += Time.deltaTime;
+        if (m_CurrentTime >= m_Time)
+        {
+            Destroy(gameObject);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D aOther)
+    private void OnTriggerStay2D(Collider2D aOther)
     {
         // When the enemy collides with a player, the player takes damage       
         if (aOther.gameObject.layer == LayerMask.NameToLayer("Sonic") && aOther.GetComponent<PlayerController>().m_CanSpin == true ||
@@ -71,7 +62,7 @@ public class EnemyDropper : MonoBehaviour
             aOther.gameObject.layer == LayerMask.NameToLayer("Shadow"))
         {
             PlayerManager.Instance.TakeDamage();
-            Destroy(gameObject);            
+            Destroy(gameObject);
         }
         else if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
@@ -88,7 +79,7 @@ public class EnemyDropper : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D aOther)
     {
-        if(aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
+        if (aOther.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             m_IsGrounded = false;
             m_Animator.SetBool("Ground", false);

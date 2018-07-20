@@ -18,7 +18,7 @@ public class SpringsBehavior : MonoBehaviour
            aOther.gameObject.layer == LayerMask.NameToLayer("Tails") ||
            aOther.gameObject.layer == LayerMask.NameToLayer("Shadow") ||
            aOther.gameObject.layer == LayerMask.NameToLayer("Dropper"))
-        {
+        {            
             m_Animator.SetBool("Restart", false);
             m_Animator.SetTrigger("Active");            
             StartCoroutine(EndCollision());

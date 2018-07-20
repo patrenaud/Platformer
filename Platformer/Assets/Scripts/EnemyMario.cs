@@ -8,24 +8,25 @@ public class EnemyMario : MonoBehaviour
     public float m_Speed = 5;
 
     private Vector3 m_Dir;
+    private Vector3 m_ScaleDown = new Vector3(0, 20);
     private float m_Time;
 
     private void Start()
     {
         m_Dir = -transform.right;
-        
+
     }
 
     private void Update()
     {
         m_Time += Time.deltaTime;
 
-        if(m_Time >= 4f)
+        if (m_Time >= 4f)
         {
             StartCoroutine(SwitchSide());
             gameObject.GetComponent<SpriteRenderer>().flipX = !gameObject.GetComponent<SpriteRenderer>().flipX;
             m_Time = 0;
-        }        
+        }
     }
 
     private IEnumerator SwitchSide()
@@ -48,6 +49,6 @@ public class EnemyMario : MonoBehaviour
             aOther.gameObject.layer == LayerMask.NameToLayer("Shadow"))
         {
             PlayerManager.Instance.TakeDamage();
-        }        
+        }
     }
 }
