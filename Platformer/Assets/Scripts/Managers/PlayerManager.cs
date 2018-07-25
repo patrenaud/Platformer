@@ -5,9 +5,7 @@ using UnityEngine;
 public class PlayerManager : DontDestroyOnLoad
 {
     [HideInInspector]
-    public GameObject m_Player;
-    [SerializeField]
-    private List<GameObject> m_Lives = new List<GameObject>();
+    public GameObject m_Player;    
     [SerializeField]
     private GameObject m_SonicPrefab; // index 1
     [SerializeField]
@@ -24,6 +22,7 @@ public class PlayerManager : DontDestroyOnLoad
     private float m_Timer;
     private float m_TimerTick;
 
+    public List<GameObject> m_Lives = new List<GameObject>();
     public bool m_CheckPoint1Done = false;
     public bool m_CheckPoint2Done = false;
     public bool m_Win = false;

@@ -124,13 +124,12 @@ public class PlayerController : MonoBehaviour
         if(aOther.gameObject.layer == LayerMask.NameToLayer("CheckPoint1"))
         {
             PlayerManager.Instance.m_CheckPoint1Done = true;
-            Debug.Log("CHeckPoint 1 Reached");
         }
         if (aOther.gameObject.layer == LayerMask.NameToLayer("CheckPoint2"))
         {
             PlayerManager.Instance.m_CheckPoint2Done = true;
-            Debug.Log("CHeckPoint 2 Reached");
         }
+        // Ceci était pour un behavior de Boss... too late!
         /*if(aOther.gameObject.layer == LayerMask.NameToLayer("Boss"))
         {    
             m_RigidBody.AddForce(transform.up * m_JumpForce * 2);

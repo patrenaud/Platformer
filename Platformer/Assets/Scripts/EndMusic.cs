@@ -27,5 +27,4 @@ public class EndMusic : MonoBehaviour
             m_AudioSource.PlayOneShot(m_LooseClip);
         }
     }
-
 }

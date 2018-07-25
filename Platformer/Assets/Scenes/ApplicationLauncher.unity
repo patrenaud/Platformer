@@ -1018,6 +1018,41 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 61918773347525386, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 7.898388
+      objectReference: {fileID: 0}
+    - target: {fileID: 61918773347525386, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 16.79678
+      objectReference: {fileID: 0}
+    - target: {fileID: 223237523965497450, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 223237523965497450, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_PixelPerfect
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035825883542718, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035825883542718, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035825883542718, guid: 593662c2cf504344898516daa7b27c99,
+        type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 593662c2cf504344898516daa7b27c99, type: 2}
   m_IsPrefabParent: 0

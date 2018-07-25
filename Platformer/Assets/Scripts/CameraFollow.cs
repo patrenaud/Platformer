@@ -16,11 +16,11 @@ private float m_Offset = 2f;
 
 private Vector3 m_MovePos = new Vector3();
 
-    private static CameraFollow m_Instance;
+    /*private static CameraFollow m_Instance; // No need
     public static CameraFollow Instance
     {
         get { return m_Instance; }
-    }
+    }*/
     
     private void Start () 
 	{

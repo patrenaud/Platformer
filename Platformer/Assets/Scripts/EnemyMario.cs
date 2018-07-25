@@ -8,7 +8,7 @@ public class EnemyMario : MonoBehaviour
     public float m_Speed = 5;
 
     private Vector3 m_Dir;
-    private Vector3 m_ScaleDown = new Vector3(0, 20);
+    //private Vector3 m_ScaleDown = new Vector3(0, 20);
     private float m_Time;
 
     private void Start()

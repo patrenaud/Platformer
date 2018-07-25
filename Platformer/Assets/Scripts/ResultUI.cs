@@ -27,6 +27,8 @@ public class ResultUI : MonoBehaviour
             {
                 m_LoadButton.interactable = false;
                 m_LoadButton.gameObject.SetActive(false);
+
+                PlayerManager.Instance.m_Lives[0].SetActive(false);
             }            
             m_WinImage.SetActive(false);
         }
